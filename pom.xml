@@ -6,7 +6,7 @@
 
   <groupId>hemanth</groupId>
   <artifactId>petclinic</artifactId>
-  <version>7.0.3</version>
+  <version>7.0.4</version>
   <packaging>war</packaging>
 
   <name>petclinic Maven Webapp</name>
