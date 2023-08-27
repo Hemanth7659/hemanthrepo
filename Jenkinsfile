@@ -32,7 +32,7 @@ pipeline {
         }
         stage ('Deploy To Dev') {
             steps {
-                deploy adapters: [tomcat9(credentialsId: 'eb719147-af7c-4c2c-9c74-42efd420a2fd', path: '', url: 'http://http://13.49.241.180:9090')], contextPath: 'petclinic', war: '**/petclinic.war'
+                deploy adapters: [tomcat9(credentialsId: 'eb719147-af7c-4c2c-9c74-42efd420a2fd', path: '', url: 'http://13.49.241.180:9090')], contextPath: 'petclinic', war: '**/petclinic.war'
             }
         }
     }
